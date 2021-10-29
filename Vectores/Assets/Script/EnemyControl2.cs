@@ -17,20 +17,25 @@ public class EnemyControl2 : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        lookPlayer();
+        lookAtLerp(player);
         MoveEnemy();
     }
 
     private void MoveEnemy()
     {
         Vector3 direction = player.transform.position-transform.position;
-        transform.Translate(SpeerEnemy * direction.normalized * Time.deltaTime);
+        if (direction.magnitude > 2)
+        {
+            transform.position += SpeerEnemy * direction.normalized * Time.deltaTime;
+        }
+
     }
 
-    private void lookPlayer()
+    private void lookAtLerp(GameObject lookObject)
     {
-        Quaternion newRotation = Quaternion.LookRotation(player.transform.position - transform.position);
-        transform.rotation = Quaternion.Lerp(transform.rotation, newRotation, SpeerEnemy * Time.deltaTime);
+        Vector3 direction = lookObject.transform.position - transform.position;
+        Quaternion newQuaternion = Quaternion.LookRotation(direction);
+        transform.rotation = Quaternion.Lerp(transform.rotation, newQuaternion, 5f * Time.deltaTime);
 
     }
 }

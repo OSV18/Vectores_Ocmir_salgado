@@ -1,0 +1,888 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.19f1 (68f137dc9bbe) revision 6877495'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Enterprise 2016 LTSB; OS build 14393.4704; Version 1607; 64bit' Language: 'es' Physical Memory: 16304 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.19f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+D:/OCMIR/Proyecto FInal/Vectores_Ocmir_Salgado/New Unity Project
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+50767
+Successfully changed project path to: D:/OCMIR/Proyecto FInal/Vectores_Ocmir_Salgado/New Unity Project
+D:/OCMIR/Proyecto FInal/Vectores_Ocmir_Salgado/New Unity Project
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 31.29 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.19f1 (68f137dc9bbe)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.19f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/OCMIR/Proyecto FInal/Vectores_Ocmir_Salgado/New Unity Project/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1050 (ID=0x1c81)
+    Vendor:   
+    VRAM:     1977 MB
+    Driver:   23.21.13.9135
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.19f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.19f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.19f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56892
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.19f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001633 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 30.13 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.938 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1939ms)
+		BeginReloadAssembly (52ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (393ms)
+			LoadAssemblies (49ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (143ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (29ms)
+			SetupLoadedEditorAssemblies (154ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (30ms)
+				BeforeProcessingInitializeOnLoad (16ms)
+				ProcessInitializeOnLoadAttributes (77ms)
+				ProcessInitializeOnLoadMethodAttributes (27ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.002171 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.32 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.960 seconds
+Domain Reload Profiling:
+	ReloadAssembly (960ms)
+		BeginReloadAssembly (136ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (17ms)
+		EndReloadAssembly (767ms)
+			LoadAssemblies (80ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (257ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (44ms)
+			SetupLoadedEditorAssemblies (298ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (73ms)
+				ProcessInitializeOnLoadAttributes (210ms)
+				ProcessInitializeOnLoadMethodAttributes (4ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 0.30 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1557 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 72.6 MB.
+System memory in use after: 72.7 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 1995.
+Total: 2.967043 ms (FindLiveObjects: 0.144782 ms CreateObjectMapping: 0.060302 ms MarkObjects: 2.679753 ms  DeleteObjects: 0.081351 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 55f8c8538cf0483ab7069ead6b737db2 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/SpaceZeta_StreetLamps
+  artifactKey: Guid(fcb19a0b33fbbe34f84f5c7c669b1822) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SpaceZeta_StreetLamps using Guid(fcb19a0b33fbbe34f84f5c7c669b1822) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f166387708d824a6df697fb52d3f03ef') in 0.007350 seconds 
+  Import took 0.009693 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000198 seconds.
+  path: Assets/SpaceZeta_StreetLamps/Base Meshes
+  artifactKey: Guid(f1885fbb07ae5b04a9f2fffba4d0daf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SpaceZeta_StreetLamps/Base Meshes using Guid(f1885fbb07ae5b04a9f2fffba4d0daf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11a0166f3956d39f2905003bcb8d5fdb') in 0.008235 seconds 
+  Import took 0.010657 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000231 seconds.
+  path: Assets/SpaceZeta_StreetLamps/Floor_mat.mat
+  artifactKey: Guid(194a7e2c4a9fc5f409dca86a97e93fea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SpaceZeta_StreetLamps/Floor_mat.mat using Guid(194a7e2c4a9fc5f409dca86a97e93fea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8fe607d16fed2a7ba08acf27e0c8b9c0') in 0.114923 seconds 
+  Import took 0.117395 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003842 seconds.
+  path: Assets/SpaceZeta_StreetLamps/Prefabs
+  artifactKey: Guid(94c6d5f63a766ee40902e79b87781cfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SpaceZeta_StreetLamps/Prefabs using Guid(94c6d5f63a766ee40902e79b87781cfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77cc4a45c17cadcf587a72c041e318de') in 0.005086 seconds 
+  Import took 0.007595 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.125000 seconds.
+  path: Assets/SpaceZeta_StreetLamps/Prefabs/StreetLamp1_Short (Concrete).prefab
+  artifactKey: Guid(e55f449d142443c4c96764e849da910a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SpaceZeta_StreetLamps/Prefabs/StreetLamp1_Short (Concrete).prefab using Guid(e55f449d142443c4c96764e849da910a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ff5c5a4ab084ed4bc54d74dc8091f10') in 0.296956 seconds 
+  Import took 0.300761 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000246 seconds.
+  path: Assets/SpaceZeta_StreetLamps/Prefabs/StreetLamp1_TallDouble (Wood).prefab
+  artifactKey: Guid(72cfa7da0ceba1548817523ae7ddacc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SpaceZeta_StreetLamps/Prefabs/StreetLamp1_TallDouble (Wood).prefab using Guid(72cfa7da0ceba1548817523ae7ddacc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a7677372bb0da1e76d938f7ec39d4a8') in 0.027337 seconds 
+  Import took 0.030450 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000247 seconds.
+  path: Assets/SpaceZeta_StreetLamps/Prefabs/StreetLamp1_ShortDouble (Wood).prefab
+  artifactKey: Guid(18cd2fc0a780b0e40b1ee8a58822853f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SpaceZeta_StreetLamps/Prefabs/StreetLamp1_ShortDouble (Wood).prefab using Guid(18cd2fc0a780b0e40b1ee8a58822853f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d2c225f7cb080057cf2b73629a177e9') in 0.023045 seconds 
+  Import took 0.026008 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000198 seconds.
+  path: Assets/SpaceZeta_StreetLamps/Prefabs/StreetLamp2_Short (Black).prefab
+  artifactKey: Guid(5106b120de5d21a418f77180c26f1c45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SpaceZeta_StreetLamps/Prefabs/StreetLamp2_Short (Black).prefab using Guid(5106b120de5d21a418f77180c26f1c45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '578dc2f5b0400317b0ad7aaf64ddf35b') in 0.018099 seconds 
+  Import took 0.021037 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000209 seconds.
+  path: Assets/SpaceZeta_StreetLamps/Prefabs/StreetLamp1_Tall (Wood).prefab
+  artifactKey: Guid(3ed485b98833de146b5042f363e30406) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SpaceZeta_StreetLamps/Prefabs/StreetLamp1_Tall (Wood).prefab using Guid(3ed485b98833de146b5042f363e30406) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '907a97bc40a1ee51e929ba9694e42582') in 0.017516 seconds 
+  Import took 0.020359 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000189 seconds.
+  path: Assets/SpaceZeta_StreetLamps/Prefabs/StreetLamp2_ShortDouble (Black).prefab
+  artifactKey: Guid(683754683c8213e4ea879026d84be241) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SpaceZeta_StreetLamps/Prefabs/StreetLamp2_ShortDouble (Black).prefab using Guid(683754683c8213e4ea879026d84be241) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe81e98fa804cac8808a133a2ec9eb1e') in 0.018278 seconds 
+  Import took 0.021238 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000214 seconds.
+  path: Assets/SpaceZeta_StreetLamps/Prefabs/StreetLamp1_ShortDouble (Concrete).prefab
+  artifactKey: Guid(53511846966b6ce4c8acb830be33adff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SpaceZeta_StreetLamps/Prefabs/StreetLamp1_ShortDouble (Concrete).prefab using Guid(53511846966b6ce4c8acb830be33adff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c9b877036ad4effab031ab7dc977842') in 0.017097 seconds 
+  Import took 0.019788 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000210 seconds.
+  path: Assets/SpaceZeta_StreetLamps/Prefabs/StreetLamp1_Short (Wood).prefab
+  artifactKey: Guid(a0db7f048a9ccd3418cc76708bc2c06c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SpaceZeta_StreetLamps/Prefabs/StreetLamp1_Short (Wood).prefab using Guid(a0db7f048a9ccd3418cc76708bc2c06c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b7c12ad3b6cbeacb1e13d14f3e26012') in 0.020045 seconds 
+  Import took 0.023491 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000199 seconds.
+  path: Assets/SpaceZeta_StreetLamps/Prefabs/StreetLamp1_Tall (Concrete).prefab
+  artifactKey: Guid(d72ff925f26cac64eab6c2d0b0414f4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SpaceZeta_StreetLamps/Prefabs/StreetLamp1_Tall (Concrete).prefab using Guid(d72ff925f26cac64eab6c2d0b0414f4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87e30d186826553fe6dbb1210585e39f') in 0.021248 seconds 
+  Import took 0.024430 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000198 seconds.
+  path: Assets/SpaceZeta_StreetLamps/Prefabs/StreetLamp2_TallDouble (Concrete).prefab
+  artifactKey: Guid(e75e0bbfe0e9d8c4b99d6d6b6829eef6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SpaceZeta_StreetLamps/Prefabs/StreetLamp2_TallDouble (Concrete).prefab using Guid(e75e0bbfe0e9d8c4b99d6d6b6829eef6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '446a24495ba8f2644c880d30cba478e3') in 0.021777 seconds 
+  Import took 0.024551 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000153 seconds.
+  path: Assets/SpaceZeta_StreetLamps/Prefabs/StreetLamp1_TallDouble (Concrete).prefab
+  artifactKey: Guid(f65e2864640061144b355703287a53e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SpaceZeta_StreetLamps/Prefabs/StreetLamp1_TallDouble (Concrete).prefab using Guid(f65e2864640061144b355703287a53e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b72b2ca451aef7bcb1dc7ade7a793aab') in 0.021920 seconds 
+  Import took 0.025224 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000164 seconds.
+  path: Assets/SpaceZeta_StreetLamps/Prefabs/StreetLamp2_TallDouble (Black).prefab
+  artifactKey: Guid(4b9bd71fee0217e45867eb0d17f859b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SpaceZeta_StreetLamps/Prefabs/StreetLamp2_TallDouble (Black).prefab using Guid(4b9bd71fee0217e45867eb0d17f859b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4fd407d06e0b74c700ce203a476558a0') in 0.021453 seconds 
+  Import took 0.024400 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000150 seconds.
+  path: Assets/SpaceZeta_StreetLamps/Prefabs/StreetLamp2_Short (Concrete).prefab
+  artifactKey: Guid(10078452dab690a4099417aafe441aed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SpaceZeta_StreetLamps/Prefabs/StreetLamp2_Short (Concrete).prefab using Guid(10078452dab690a4099417aafe441aed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b3981656b43a297762fd31836c8fa31') in 0.022529 seconds 
+  Import took 0.025491 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000150 seconds.
+  path: Assets/SpaceZeta_StreetLamps/Prefabs/StreetLamp2_Tall (Black).prefab
+  artifactKey: Guid(0ac8c7292c9cebe40af67618c9d536b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SpaceZeta_StreetLamps/Prefabs/StreetLamp2_Tall (Black).prefab using Guid(0ac8c7292c9cebe40af67618c9d536b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eeeaf2cbf21f19aaad6ec0e307d9029b') in 0.021395 seconds 
+  Import took 0.024288 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000157 seconds.
+  path: Assets/SpaceZeta_StreetLamps/Prefabs/StreetLamp2_Tall (Concrete).prefab
+  artifactKey: Guid(3a162d9b3eabf5541aeafc613988e630) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SpaceZeta_StreetLamps/Prefabs/StreetLamp2_Tall (Concrete).prefab using Guid(3a162d9b3eabf5541aeafc613988e630) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '262a9566108dfe4ee730c4e95869c5a9') in 0.021869 seconds 
+  Import took 0.025320 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000143 seconds.
+  path: Assets/SpaceZeta_StreetLamps/Prefabs/StreetLamp2_ShortDouble (Concrete).prefab
+  artifactKey: Guid(d637864fd6d99f24c976d61f894c2ae5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SpaceZeta_StreetLamps/Prefabs/StreetLamp2_ShortDouble (Concrete).prefab using Guid(d637864fd6d99f24c976d61f894c2ae5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05f316f8227242cdfe791f7640df5557') in 0.028520 seconds 
+  Import took 0.032048 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 104.229212 seconds.
+  path: Assets/SpaceZeta_StreetLamps/Base Meshes/StreetLamp1_Short.fbx
+  artifactKey: Guid(103876eacf3ef1644942b9a8c23b7e3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SpaceZeta_StreetLamps/Base Meshes/StreetLamp1_Short.fbx using Guid(103876eacf3ef1644942b9a8c23b7e3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4608c8db7b8514c143dfb9710542afce') in 0.028918 seconds 
+  Import took 0.032464 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000265 seconds.
+  path: Assets/SpaceZeta_StreetLamps/Base Meshes/StreetLamp2_Short.fbx
+  artifactKey: Guid(a402dd86229bd0649a0a930d618ff9dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SpaceZeta_StreetLamps/Base Meshes/StreetLamp2_Short.fbx using Guid(a402dd86229bd0649a0a930d618ff9dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '048ba86178f41c6691d3ca15bde90ae8') in 0.016996 seconds 
+  Import took 0.019438 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000265 seconds.
+  path: Assets/SpaceZeta_StreetLamps/Base Meshes/StreetLamp1_TallDouble.fbx
+  artifactKey: Guid(e778a9bac4221734ea9d355cde103f15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SpaceZeta_StreetLamps/Base Meshes/StreetLamp1_TallDouble.fbx using Guid(e778a9bac4221734ea9d355cde103f15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e58d274142c85406db874eef77304603') in 0.012757 seconds 
+  Import took 0.015237 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000200 seconds.
+  path: Assets/SpaceZeta_StreetLamps/Base Meshes/StreetLamp2_Tall.fbx
+  artifactKey: Guid(c2fbbd11e42372247bb41ffe9a265430) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SpaceZeta_StreetLamps/Base Meshes/StreetLamp2_Tall.fbx using Guid(c2fbbd11e42372247bb41ffe9a265430) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79031de1b12747e4237a95e3245dd1f2') in 0.012665 seconds 
+  Import took 0.015452 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000229 seconds.
+  path: Assets/SpaceZeta_StreetLamps/Base Meshes/StreetLamp1_Tall.fbx
+  artifactKey: Guid(5f762237f251df245951874e04796ecd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SpaceZeta_StreetLamps/Base Meshes/StreetLamp1_Tall.fbx using Guid(5f762237f251df245951874e04796ecd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77b34b7abe6bf490340f6e8ca7ff8735') in 0.014136 seconds 
+  Import took 0.016486 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000249 seconds.
+  path: Assets/SpaceZeta_StreetLamps/Base Meshes/StreetLamp2_TallDouble.fbx
+  artifactKey: Guid(9c30d06babd009546a717f60cfa802fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SpaceZeta_StreetLamps/Base Meshes/StreetLamp2_TallDouble.fbx using Guid(9c30d06babd009546a717f60cfa802fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1768057fa156ec6a45775a343b691a9c') in 0.021388 seconds 
+  Import took 0.024360 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000230 seconds.
+  path: Assets/SpaceZeta_StreetLamps/Base Meshes/StreetLamp1_ShortDouble.fbx
+  artifactKey: Guid(a93bb19e7536d6c4ba9f87d9c80f607b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SpaceZeta_StreetLamps/Base Meshes/StreetLamp1_ShortDouble.fbx using Guid(a93bb19e7536d6c4ba9f87d9c80f607b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3ca2bf771985c5750cdb97a16e97ee4') in 0.016266 seconds 
+  Import took 0.018980 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000268 seconds.
+  path: Assets/SpaceZeta_StreetLamps/Base Meshes/StreetLamp2_ShortDouble.fbx
+  artifactKey: Guid(7c254f7259153db43b84ee9acf8f2e96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SpaceZeta_StreetLamps/Base Meshes/StreetLamp2_ShortDouble.fbx using Guid(7c254f7259153db43b84ee9acf8f2e96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd02e127d842290afde27efe0e044082') in 0.016630 seconds 
+  Import took 0.019422 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 32.332072 seconds.
+  path: Assets/SpaceZeta_StreetLamps/Materials/StreetLamp1Concrete_basecolor.png
+  artifactKey: Guid(a66f9ae8fbac2f74eb79d074a8f8c5e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SpaceZeta_StreetLamps/Materials/StreetLamp1Concrete_basecolor.png using Guid(a66f9ae8fbac2f74eb79d074a8f8c5e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9193d340743abde4cbb6820fcacce53') in 0.019764 seconds 
+  Import took 0.022419 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000262 seconds.
+  path: Assets/SpaceZeta_StreetLamps/Materials/StreetLamp1Wood_metallic.png
+  artifactKey: Guid(b8599606720bb1b4c8e90c0ca772a2b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SpaceZeta_StreetLamps/Materials/StreetLamp1Wood_metallic.png using Guid(b8599606720bb1b4c8e90c0ca772a2b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e1a012fd86cce95f618408328dac3ba') in 0.011045 seconds 
+  Import took 0.013369 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000245 seconds.
+  path: Assets/SpaceZeta_StreetLamps/Materials/StreetLamp1Wood_basecolor.png
+  artifactKey: Guid(ca8b027f805421f42b9d3c02041aa887) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SpaceZeta_StreetLamps/Materials/StreetLamp1Wood_basecolor.png using Guid(ca8b027f805421f42b9d3c02041aa887) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e71e2bfe726732e076656d74f634066') in 0.011217 seconds 
+  Import took 0.013510 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000265 seconds.
+  path: Assets/SpaceZeta_StreetLamps/Materials/StreetLamp2Concrete_basecolor.png
+  artifactKey: Guid(457a1ab696675264792c917dd06f4ab5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SpaceZeta_StreetLamps/Materials/StreetLamp2Concrete_basecolor.png using Guid(457a1ab696675264792c917dd06f4ab5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0378ce41d8daf08b9df180411d1d250') in 0.012136 seconds 
+  Import took 0.014462 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000279 seconds.
+  path: Assets/SpaceZeta_StreetLamps/Materials/StreetLamp2Concrete_normal.png
+  artifactKey: Guid(7976d7a9031cc144cb3d4f3afc7e82bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SpaceZeta_StreetLamps/Materials/StreetLamp2Concrete_normal.png using Guid(7976d7a9031cc144cb3d4f3afc7e82bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '391f3af5395b4da0d702bbbe1df5dc1c') in 0.015350 seconds 
+  Import took 0.017742 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000233 seconds.
+  path: Assets/SpaceZeta_StreetLamps/Materials/StreetLamp2Concrete_roughness.png
+  artifactKey: Guid(dbe79931b92438b4cb21519aac41f5c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SpaceZeta_StreetLamps/Materials/StreetLamp2Concrete_roughness.png using Guid(dbe79931b92438b4cb21519aac41f5c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2247958510e85c57911a9d8991589e11') in 0.010554 seconds 
+  Import took 0.012905 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000223 seconds.
+  path: Assets/SpaceZeta_StreetLamps/Materials/StreetLamp2Black_roughness.png
+  artifactKey: Guid(8c9fc232d6fc2c04cbcad155c1c2ae30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SpaceZeta_StreetLamps/Materials/StreetLamp2Black_roughness.png using Guid(8c9fc232d6fc2c04cbcad155c1c2ae30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d315e12efb64cec764057c2c9c6e71c') in 0.013711 seconds 
+  Import took 0.016312 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000232 seconds.
+  path: Assets/SpaceZeta_StreetLamps/Materials/StreetLamp1Wood_mat.mat
+  artifactKey: Guid(14c2361281326e243ac2b647f53239f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SpaceZeta_StreetLamps/Materials/StreetLamp1Wood_mat.mat using Guid(14c2361281326e243ac2b647f53239f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7b1bc044edb0320dde3b64d6816f67a') in 0.057868 seconds 
+  Import took 0.061356 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000234 seconds.
+  path: Assets/SpaceZeta_StreetLamps/Materials/StreetLamp1Concrete_emissive.png
+  artifactKey: Guid(c6a8e7fb95525c143a7d85dca4116af6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SpaceZeta_StreetLamps/Materials/StreetLamp1Concrete_emissive.png using Guid(c6a8e7fb95525c143a7d85dca4116af6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '966095b617bed908aa356e7c0f8c368c') in 0.014872 seconds 
+  Import took 0.019160 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000211 seconds.
+  path: Assets/SpaceZeta_StreetLamps/Materials/StreetLamp2Concrete_emissive.png
+  artifactKey: Guid(f3b947f747d82fb4c83a6f5bdba23720) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SpaceZeta_StreetLamps/Materials/StreetLamp2Concrete_emissive.png using Guid(f3b947f747d82fb4c83a6f5bdba23720) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1642e040a683ec3d059a825b48d6fd6e') in 0.013403 seconds 
+  Import took 0.016069 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000189 seconds.
+  path: Assets/SpaceZeta_StreetLamps/Materials/StreetLamp2Black_basecolor.png
+  artifactKey: Guid(2473bf83f2fe7e3498e1bed1a8b4cd80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SpaceZeta_StreetLamps/Materials/StreetLamp2Black_basecolor.png using Guid(2473bf83f2fe7e3498e1bed1a8b4cd80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ae1d511430c81eb6c0eb0c552f4f167') in 0.012236 seconds 
+  Import took 0.015047 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000166 seconds.
+  path: Assets/SpaceZeta_StreetLamps/Materials/StreetLamp2Black_normal.png
+  artifactKey: Guid(c25d17c3d2e6ec14490a70e6dbb4f057) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SpaceZeta_StreetLamps/Materials/StreetLamp2Black_normal.png using Guid(c25d17c3d2e6ec14490a70e6dbb4f057) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65cf6fe6a1a2ae1808407924b4a3f691') in 0.017491 seconds 
+  Import took 0.020586 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000155 seconds.
+  path: Assets/SpaceZeta_StreetLamps/Materials/StreetLamp1Concrete_roughness.png
+  artifactKey: Guid(f4c762bb3e50c4843875c08e6f48b613) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SpaceZeta_StreetLamps/Materials/StreetLamp1Concrete_roughness.png using Guid(f4c762bb3e50c4843875c08e6f48b613) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d67b65160d53fb06a74ba57b9e70f7f') in 0.013207 seconds 
+  Import took 0.016751 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000143 seconds.
+  path: Assets/SpaceZeta_StreetLamps/Materials/StreetLamp1Concrete_mat.mat
+  artifactKey: Guid(0495c0891061cf543a7f93f8e422fff2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SpaceZeta_StreetLamps/Materials/StreetLamp1Concrete_mat.mat using Guid(0495c0891061cf543a7f93f8e422fff2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3bd13624783a86ad895cffe255238f43') in 0.022642 seconds 
+  Import took 0.025571 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000146 seconds.
+  path: Assets/SpaceZeta_StreetLamps/Materials/StreetLamp1Wood_normal.png
+  artifactKey: Guid(9e8658490996ff64ea4f1cd7c06b8668) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SpaceZeta_StreetLamps/Materials/StreetLamp1Wood_normal.png using Guid(9e8658490996ff64ea4f1cd7c06b8668) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a0b94e0ff23ad83258b060a4ff5c6a2') in 0.011837 seconds 
+  Import took 0.014136 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000150 seconds.
+  path: Assets/SpaceZeta_StreetLamps/Materials/StreetLamp2Concrete_mat.mat
+  artifactKey: Guid(0b36183d9999fbb4fa6992939dd0e123) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SpaceZeta_StreetLamps/Materials/StreetLamp2Concrete_mat.mat using Guid(0b36183d9999fbb4fa6992939dd0e123) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '278a38343613470ab5071f5637967ed5') in 0.018101 seconds 
+  Import took 0.021029 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000143 seconds.
+  path: Assets/SpaceZeta_StreetLamps/Materials/StreetLamp1Concrete_metallic.png
+  artifactKey: Guid(ac676a600177c6a4c9ef07fbe1e2609c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SpaceZeta_StreetLamps/Materials/StreetLamp1Concrete_metallic.png using Guid(ac676a600177c6a4c9ef07fbe1e2609c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '446b5515a4a599a14e3dd37d02dfb2a9') in 0.010281 seconds 
+  Import took 0.012667 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000152 seconds.
+  path: Assets/SpaceZeta_StreetLamps/Materials/StreetLamp1Wood_roughness.png
+  artifactKey: Guid(fa637e127c405ac418e170992191e08d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SpaceZeta_StreetLamps/Materials/StreetLamp1Wood_roughness.png using Guid(fa637e127c405ac418e170992191e08d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90c2c89500fdfc867070df6de0edf27e') in 0.009854 seconds 
+  Import took 0.012204 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000139 seconds.
+  path: Assets/SpaceZeta_StreetLamps/Materials/StreetLamp2Concrete_metallic.png
+  artifactKey: Guid(666a934f93f6aca4aba280592bd49e35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SpaceZeta_StreetLamps/Materials/StreetLamp2Concrete_metallic.png using Guid(666a934f93f6aca4aba280592bd49e35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '758ff66ce0f82104ea7aa282d79aac8d') in 0.010393 seconds 
+  Import took 0.012781 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000178 seconds.
+  path: Assets/SpaceZeta_StreetLamps/Materials/StreetLamp1Concrete_normal.png
+  artifactKey: Guid(b1b7d17cfcec81346a6e44a8b69a98d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SpaceZeta_StreetLamps/Materials/StreetLamp1Concrete_normal.png using Guid(b1b7d17cfcec81346a6e44a8b69a98d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61abad0172db4e4bd872eca21b9726cb') in 0.010797 seconds 
+  Import took 0.013310 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000176 seconds.
+  path: Assets/SpaceZeta_StreetLamps/Materials/StreetLamp2Black_metallic.png
+  artifactKey: Guid(21694348e1a9b5748a3fa39ea6c13eec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SpaceZeta_StreetLamps/Materials/StreetLamp2Black_metallic.png using Guid(21694348e1a9b5748a3fa39ea6c13eec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5d51dc47b1af5b2c5643dc2759da70e') in 0.013078 seconds 
+  Import took 0.015688 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000226 seconds.
+  path: Assets/SpaceZeta_StreetLamps/Materials/StreetLamp2Black_emissive.png
+  artifactKey: Guid(2135360c00da0924aac25edf7c035bfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SpaceZeta_StreetLamps/Materials/StreetLamp2Black_emissive.png using Guid(2135360c00da0924aac25edf7c035bfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da915d075d0c2496f9424dba8236ed14') in 0.015507 seconds 
+  Import took 0.019877 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000182 seconds.
+  path: Assets/SpaceZeta_StreetLamps/Materials/StreetLamp1Wood_emissive.png
+  artifactKey: Guid(68749fc52c8618d4798b97a718182fe1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SpaceZeta_StreetLamps/Materials/StreetLamp1Wood_emissive.png using Guid(68749fc52c8618d4798b97a718182fe1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8eaf80a56150ffef40d8a8ff1bf9d50f') in 0.011850 seconds 
+  Import took 0.015615 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000189 seconds.
+  path: Assets/SpaceZeta_StreetLamps/Materials/StreetLamp2Black_mat.mat
+  artifactKey: Guid(03b09042d3aeb4d42a1527de9bd4af05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SpaceZeta_StreetLamps/Materials/StreetLamp2Black_mat.mat using Guid(03b09042d3aeb4d42a1527de9bd4af05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1eb0226b8431ef99c86ac1d3f6cd5c0d') in 0.020257 seconds 
+  Import took 0.023535 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002085 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.30 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.903 seconds
+Domain Reload Profiling:
+	ReloadAssembly (903ms)
+		BeginReloadAssembly (97ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (30ms)
+		EndReloadAssembly (749ms)
+			LoadAssemblies (79ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (258ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (39ms)
+			SetupLoadedEditorAssemblies (277ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (67ms)
+				ProcessInitializeOnLoadAttributes (194ms)
+				ProcessInitializeOnLoadMethodAttributes (4ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.38 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1549 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 76.3 MB.
+System memory in use after: 76.4 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 2044.
+Total: 2.865496 ms (FindLiveObjects: 0.141653 ms CreateObjectMapping: 0.047787 ms MarkObjects: 2.649602 ms  DeleteObjects: 0.024747 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 55f8c8538cf0483ab7069ead6b737db2 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 751.392964 seconds.
+  path: Assets/Scenes/Cameras.unity
+  artifactKey: Guid(c5029a5b91fb4e74fa2ff1f79b4334db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Cameras.unity using Guid(c5029a5b91fb4e74fa2ff1f79b4334db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e1ce67dd5af95787cfc95f0309889a9') in 0.017195 seconds 
+  Import took 0.019946 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 25.647535 seconds.
+  path: Assets/SpaceZeta_StreetLamps/Materials
+  artifactKey: Guid(157a9961a18d6e84e98d9484e89a6eff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SpaceZeta_StreetLamps/Materials using Guid(157a9961a18d6e84e98d9484e89a6eff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82e2420c9c4a6b0d34c89a81dbbc0164') in 0.002442 seconds 
+  Import took 0.006758 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.085578 seconds.
+  path: Assets/SpaceZeta_StreetLamps/ShowcaseSettings.lighting
+  artifactKey: Guid(0749bfc9ec5a8464dae2013832fd933c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SpaceZeta_StreetLamps/ShowcaseSettings.lighting using Guid(0749bfc9ec5a8464dae2013832fd933c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c42078bb45ad3753f9cd91e91eefe588') in 0.013358 seconds 
+  Import took 0.017986 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.017401 seconds.
+  path: Assets/SpaceZeta_StreetLamps/Showcase.unity
+  artifactKey: Guid(3babf7fc87534fd4dbd20ef7059ed307) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SpaceZeta_StreetLamps/Showcase.unity using Guid(3babf7fc87534fd4dbd20ef7059ed307) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba3a64b0b78432016094b4c7e4c6afab') in 0.007373 seconds 
+  Import took 0.011917 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 111.888767 seconds.
+  path: Assets/Prefabs/StreetLamp2_Short (Black).prefab
+  artifactKey: Guid(5106b120de5d21a418f77180c26f1c45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/StreetLamp2_Short (Black).prefab using Guid(5106b120de5d21a418f77180c26f1c45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb61c6d91614482502c7898a0c577a96') in 0.062262 seconds 
+  Import took 0.065589 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002163 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.32 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.906 seconds
+Domain Reload Profiling:
+	ReloadAssembly (906ms)
+		BeginReloadAssembly (107ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (34ms)
+		EndReloadAssembly (743ms)
+			LoadAssemblies (85ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (251ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (38ms)
+			SetupLoadedEditorAssemblies (279ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (68ms)
+				ProcessInitializeOnLoadAttributes (197ms)
+				ProcessInitializeOnLoadMethodAttributes (4ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.30 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1549 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 76.3 MB.
+System memory in use after: 76.4 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2047.
+Total: 2.896500 ms (FindLiveObjects: 0.141085 ms CreateObjectMapping: 0.049778 ms MarkObjects: 2.687149 ms  DeleteObjects: 0.017351 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 55f8c8538cf0483ab7069ead6b737db2 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 83.063871 seconds.
+  path: Assets/Prefabs/StreetLamp2_Short (Black).prefab
+  artifactKey: Guid(5106b120de5d21a418f77180c26f1c45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/StreetLamp2_Short (Black).prefab using Guid(5106b120de5d21a418f77180c26f1c45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '563c5b718ac633ae0d22618da11897e8') in 0.061634 seconds 
+  Import took 0.064508 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.007920 seconds.
+  path: Assets/Prefabs/StreetLamp2_Short (Black).prefab
+  artifactKey: Guid(5106b120de5d21a418f77180c26f1c45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/StreetLamp2_Short (Black).prefab using Guid(5106b120de5d21a418f77180c26f1c45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4db0f18f2e7afaafa4ca0ce7fd9dc757') in 0.017528 seconds 
+  Import took 0.020854 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 23.030186 seconds.
+  path: Assets/Prefabs/StreetLamp2_Short (Black).prefab
+  artifactKey: Guid(5106b120de5d21a418f77180c26f1c45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/StreetLamp2_Short (Black).prefab using Guid(5106b120de5d21a418f77180c26f1c45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4a0e7cb24a2e4b798b7f71cfd10a940') in 0.017555 seconds 
+  Import took 0.020807 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.204504 seconds.
+  path: Assets/Prefabs/StreetLamp2_Short (Black).prefab
+  artifactKey: Guid(5106b120de5d21a418f77180c26f1c45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/StreetLamp2_Short (Black).prefab using Guid(5106b120de5d21a418f77180c26f1c45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9525687502e0f1e00cd77723f22f26e1') in 0.030667 seconds 
+  Import took 0.033658 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 299.963282 seconds.
+  path: Assets/Scenes/Cameras.unity
+  artifactKey: Guid(c5029a5b91fb4e74fa2ff1f79b4334db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Cameras.unity using Guid(c5029a5b91fb4e74fa2ff1f79b4334db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1836847ae9614c0d21aee2e0fed893d1') in 0.003268 seconds 
+  Import took 0.006541 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002297 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.32 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.939 seconds
+Domain Reload Profiling:
+	ReloadAssembly (939ms)
+		BeginReloadAssembly (111ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (37ms)
+		EndReloadAssembly (765ms)
+			LoadAssemblies (89ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (265ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (40ms)
+			SetupLoadedEditorAssemblies (283ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (69ms)
+				ProcessInitializeOnLoadAttributes (199ms)
+				ProcessInitializeOnLoadMethodAttributes (4ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.37 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1549 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 76.3 MB.
+System memory in use after: 76.4 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2050.
+Total: 3.069158 ms (FindLiveObjects: 0.155591 ms CreateObjectMapping: 0.052053 ms MarkObjects: 2.842171 ms  DeleteObjects: 0.017351 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 55f8c8538cf0483ab7069ead6b737db2 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002103 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.33 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.911 seconds
+Domain Reload Profiling:
+	ReloadAssembly (911ms)
+		BeginReloadAssembly (96ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (27ms)
+		EndReloadAssembly (755ms)
+			LoadAssemblies (83ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (252ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (39ms)
+			SetupLoadedEditorAssemblies (282ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (73ms)
+				ProcessInitializeOnLoadAttributes (193ms)
+				ProcessInitializeOnLoadMethodAttributes (4ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.31 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1549 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 76.3 MB.
+System memory in use after: 76.5 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2052.
+Total: 3.149372 ms (FindLiveObjects: 0.145067 ms CreateObjectMapping: 0.050916 ms MarkObjects: 2.936038 ms  DeleteObjects: 0.015929 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 55f8c8538cf0483ab7069ead6b737db2 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 615.798174 seconds.
+  path: Assets/SpaceZeta_StreetLamps/Showcase.unity
+  artifactKey: Guid(3babf7fc87534fd4dbd20ef7059ed307) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SpaceZeta_StreetLamps/Showcase.unity using Guid(3babf7fc87534fd4dbd20ef7059ed307) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1473dc7c96ac529a763509d323f7b5b9') in 0.014286 seconds 
+  Import took 0.017489 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.063974 seconds.
+  path: Assets/Scenes/Cameras.unity
+  artifactKey: Guid(c5029a5b91fb4e74fa2ff1f79b4334db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Cameras.unity using Guid(c5029a5b91fb4e74fa2ff1f79b4334db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b610fb3848c4a0cdcf09cfa78749665f') in 0.001630 seconds 
+  Import took 0.004363 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.011024 seconds.
+  path: Assets/Materials/StreetLamp2Concrete_mat.mat
+  artifactKey: Guid(0b36183d9999fbb4fa6992939dd0e123) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/StreetLamp2Concrete_mat.mat using Guid(0b36183d9999fbb4fa6992939dd0e123) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abe007152928298bee0172f85f47f2b1') in 0.058471 seconds 
+  Import took 0.061072 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 101.556987 seconds.
+  path: Assets/Scenes/Cameras.unity
+  artifactKey: Guid(c5029a5b91fb4e74fa2ff1f79b4334db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Cameras.unity using Guid(c5029a5b91fb4e74fa2ff1f79b4334db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dcfaefdf7251d89996aeb44ad9bcc4d3') in 0.002174 seconds 
+  Import took 0.004677 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
